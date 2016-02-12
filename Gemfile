@@ -46,3 +46,11 @@ gem 'thin', platforms: :ruby
 
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sinatra'
+gem 'responders', '~> 2.0'
+
+group :development do
+  gem 'pry'
+  gem 'pry-rails'
+  #gem 'pry-nav'   # Using MRI 2+? Switch to pry-byebug.
+  gem 'pry-byebug'
+end
